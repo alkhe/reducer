@@ -1,9 +1,10 @@
 {
   "name": "reducer",
-  "version": "0.0.4",
-  "description": "Implementation agnostic state reducers for Functional Flux.",
+  "version": "0.0.5",
+  "description": "Implementation-agnostic state reducers for Functional Flux.",
   "scripts": {
     "test": ":",
+    "prepublish": "gulp build",
     "install": "mv lib/* . && rmdir lib"
   },
   "files": ["lib"],
