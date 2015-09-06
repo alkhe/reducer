@@ -25,7 +25,7 @@ import { stock, cart } from './reducers';
 
 let store = Shape({ stock, cart });
 
-user()
+store()
 // { stock: stock(), cart: cart() }
 ```
 
