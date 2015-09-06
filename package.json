@@ -1,0 +1,34 @@
+{
+  "name": "reducer",
+  "version": "0.0.4",
+  "description": "Implementation agnostic state reducers for Functional Flux.",
+  "scripts": {
+    "test": ":",
+    "install": "mv lib/* . && rmdir lib"
+  },
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edge/reducer.git"
+  },
+  "keywords": [
+    "reducer",
+    "flux",
+    "fluxette",
+    "redux",
+    "functional",
+    "state"
+  ],
+  "author": "synchronous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edge/reducer/issues"
+  },
+  "homepage": "https://github.com/edge/reducer#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "fluxette": "^0.18.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1"
+  }
+}
