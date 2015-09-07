@@ -85,3 +85,16 @@ state = reducer(state, { type: HYDRATE_TYPE, state: { a: 5, b: 6 }});
 state
 // { a: 5, b: 6 }
 ```
+
+**SideEffect(reducer, effect)**
+Creates a reducer that wraps `reducer`, and calls `effect` as if it were a Reducer, but ignores its return value.
+
+```js
+import SideEffect from 'reducer/sideeffect';
+
+let loggingReducer = SideEffect(reducer, (state, action) => console.log(action));
+
+loggingReducer(state, action)
+
+// effectively the same as reducer(state, action), but also logs actions
+```
