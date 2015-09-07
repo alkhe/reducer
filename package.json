@@ -1,6 +1,6 @@
 {
   "name": "reducer",
-  "version": "0.19.1",
+  "version": "0.19.2",
   "description": "Implementation-agnostic state reducers for Functional Flux.",
   "scripts": {
     "test": ":",
